@@ -1,0 +1,288 @@
+
+
+body{
+  background-color: #eae2b7;;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  text-align: justify;
+}
+
+button, .input-section a{
+  background-color: black;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  width:20%;
+  padding: 0.5%;
+  border-radius: 0;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.first-page{
+  position: relative;
+}
+
+.background {
+  background-color: #fcbf49;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.background2 {
+  background-color: #4d908e;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.newInterview{
+  color: white;
+  background-color: #fcbf49;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+}
+
+.newInterview h3{
+  font-size: 560%;
+  text-align: left;
+  font-family: 'Staatliches';
+  margin-left: 4%;
+  margin-bottom: 0;
+  color: white;
+}
+
+.newInterview a{
+  text-decoration: none;
+  margin: 2%;
+  padding: 2%;
+  width: 100%;
+  font-size: 200%;
+  color: white;
+  background-color: #f77f00;
+  font-family: 'Staatliches';
+  margin-left: 4%;
+}
+
+.interviewTrailer{
+  display: flex;
+  background-color: #eae2b7;
+  margin: 3%;
+  padding: 2%;
+
+}
+
+.interviewTrailer img{
+  height: 300px;
+
+}
+
+.trailerText{
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: justify;
+  height: 100%;
+  color: #003049;
+}
+
+.trailerText p{
+  font-size: 170%;
+  line-height: 200%;
+}
+
+
+
+
+
+
+
+
+.main-content {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 20px;
+  margin: 2em auto;
+  background-color: #eae2b7;
+
+}
+
+.tour {
+  max-width: 100%;
+  position:relative;
+  z-index:1;
+  color: black;
+  background-color: #eae2b7;
+  margin: 5%;
+
+}
+
+.tour:hover{
+  background-color: #f77f00;
+  padding: 5%;
+}
+
+.tour p{
+  text-align: center;
+  color: #073b4c;
+  line-height: 150%;
+}
+
+.tour h3{
+  text-align: center;
+  font-size: 200%;
+  font-weight: lighter;
+}
+
+.tour button {
+  margin: 13%;
+  margin-top: 5%;
+  width: 70%;
+  text-align: center;
+  padding: 6%;
+  font-weight: bold;
+  font-size: 25px;
+  color: #eae2b7;
+  background-color: #f77f00;
+}
+
+/*button:hover{
+  background-color: white;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}*/
+
+.tour img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+
+  width: 100%;
+}
+
+
+.background h1{
+  font-size: 700%;
+  text-align: center;
+  color: white;
+  font-family: 'Staatliches';
+  margin: auto;
+}
+
+.background a{
+  text-decoration: none;
+}
+
+.background2 h3{
+  font-size: 250%;
+  text-align: center;
+  color: #fcbf49;
+  font-family: 'Staatliches';
+  margin: auto;
+}
+
+.annonsera-container{
+  display: grid;
+  row-gap: 5%;
+}
+
+.annonsera-container input{
+  margin: auto;
+  border-color: white;
+  width: 70%;
+  font-size: 250%;
+  font-family: 'Staatliches';
+}
+
+input::placeholder{
+  color: #8897A8;
+}
+
+.annonsera-container button{
+  margin: auto;
+  width: 50%;
+  font-size: 300%;
+  color: #8897A8;
+  font-family: 'Staatliches';
+}
+
+.annons-rubrik-container{
+  display: flex;
+  margin-bottom: 1%;
+}
+
+
+/**********Intervju************/
+
+
+.preText{
+  width: 70%;
+  text-align: justify;
+  font-size: 120%;
+  background-color: #fcbf49;
+  padding: 2%;
+  line-height: 35px;
+}
+
+.intervjuStart{
+  display: flex;
+}
+
+.intervjuStart img{
+  width: 30%;
+  height: auto;
+}
+
+.intervjuMid{
+  width: 100%;
+}
+
+.intervjuMid p{
+  width: 70%;
+  margin: auto;
+}
+
+.intervjuMid h3{
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  font-weight: bolder;
+}
+
+.intervjuMid img{
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.followLinks{
+  background-color: #4d908e;
+  padding: 1%;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .arrow{
+    display: none;
+  }
+
+  .background img{
+    display: none;
+  }
+
+  .mobile-background img{
+    display: block;
+    width: 100%;
+  }
+
+}
