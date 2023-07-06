@@ -250,19 +250,19 @@ input::placeholder{
 }
 
 .intervjuMid p{
-  width: 90%;
+  width: 75%;
   margin: auto;
 }
 
 .intervjuMid h3{
-  width: 90%;
+  width: 75%;
   margin: auto;
   text-align: justify;
   font-weight: bolder;
 }
 
 .intervjuMid img{
-  width: 90%;
+  width: 75%;
   display: block;
   margin: auto;
 }
