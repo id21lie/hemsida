@@ -292,7 +292,7 @@ input::placeholder{
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1440px) {
   .background h3{
     font-size: 50px;
   }
@@ -311,4 +311,11 @@ input::placeholder{
     width: 90%;
   }
 
+  
+
+}
+
+
+@media only screen and (max-width: 1440){
+  
 }
