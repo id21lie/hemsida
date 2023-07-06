@@ -243,7 +243,6 @@ input::placeholder{
 
 .intervjuStart img{
   width: 30%;
-  height: auto;
 }
 
 .intervjuMid{
@@ -287,6 +286,29 @@ input::placeholder{
 
   .newInterview-left{
     margin-top: 25%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .background h3{
+    font-size: 50px;
+  }
+
+  .intervjuStart{
+    display: block;
+    background-color: #fcbf49;
+  }
+
+  .intervjuStart img{
+    width: 100%;
+  }
+
+  .preText{
+    margin-left: 4%;
+    width: 90%;
   }
 
 }
