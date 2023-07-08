@@ -42,6 +42,10 @@ a{
   padding-bottom: 3%;
 }
 
+.urval img{
+  width: 100%;
+}
+
 .newInterview{
   color: white;
   background-color: #fcbf49;
