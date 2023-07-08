@@ -275,7 +275,7 @@ input::placeholder{
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 480px) {
 
   .trailerText p{
     display: none;
@@ -289,11 +289,6 @@ input::placeholder{
     margin-top: 25%;
   }
 
-}
-
-
-
-@media only screen and (max-width: 480px) {
   
   .background h3{
     font-size: 50px;
