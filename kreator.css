@@ -283,12 +283,12 @@ input::placeholder{
 
   .interviewTrailer{
     display: block;
+    width: 30%;
   }
 
   .newInterview-left{
     margin-top: 25%;
   }
-
   
   .background h3{
     font-size: 50px;
