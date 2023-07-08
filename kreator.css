@@ -247,13 +247,12 @@ input::placeholder{
 
 .intervjuMid{
   width: 100%;
-  line-height: 120%;
 }
 
 .intervjuMid p{
   width: 75%;
   margin: auto;
-  line-height: 130%;
+  line-height: 35px;
 }
 
 .intervjuMid h3{
