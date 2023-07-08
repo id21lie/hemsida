@@ -283,7 +283,10 @@ input::placeholder{
 
   .interviewTrailer{
     display: block;
-    width: 30%;
+  }
+
+  .interviewTrailer img{ 
+    height: 100px;
   }
 
   .newInterview-left{
