@@ -259,6 +259,7 @@ input::placeholder{
   width: 75%;
   text-align: justify;
   font-weight: bolder;
+  margin-bottom: 0;
 }
 
 .intervjuMid img{
