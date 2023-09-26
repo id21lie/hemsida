@@ -248,7 +248,7 @@ input::placeholder{
 }
 
 .intervjuMid{
-  width: 80%;
+  width: 60%;
 }
 
 .intervjuMid p{
@@ -259,7 +259,6 @@ input::placeholder{
 
 .intervjuMid h3{
   width: 100%;
-  text-align: justify;
   font-weight: bolder;
   margin: auto;
 }
