@@ -252,13 +252,13 @@ input::placeholder{
 }
 
 .intervjuMid p{
-  width: 95%;
+  width: 75%;
   margin: auto;
   line-height: 25px;
 }
 
 .intervjuMid h3{
-  width: 95%;
+  width: 75%;
   text-align: justify;
   font-weight: bolder;
   margin: auto;
