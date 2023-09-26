@@ -264,7 +264,7 @@ input::placeholder{
 }
 
 .intervjuMid img{
-  width: 100%;
+  width: 90%;
   display: block;
   margin: auto;
 }
@@ -315,6 +315,10 @@ input::placeholder{
     margin-left: 4%;
     width: 90%;
   }
+
+  .intervjuMid img{
+  width: 100%;
+}
   
 }
 
