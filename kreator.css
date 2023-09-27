@@ -328,5 +328,10 @@ input::placeholder{
 
   .intervjuMid img{
   width: 100%;
+  }
+
+  .intervjuMid p{
+  width: 90%;
+  }
 }
 
