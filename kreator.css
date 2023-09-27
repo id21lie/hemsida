@@ -333,5 +333,9 @@ input::placeholder{
   .intervjuMid p{
   width: 90%;
   }
+
+  .intervjuMid h3{
+  width: 90%;
+  }
 }
 
