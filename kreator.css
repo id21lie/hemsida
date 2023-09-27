@@ -101,7 +101,6 @@ a{
 .trailerText p{
   font-size: 2vw;
   line-height: 200%;
-  text-align: justify;
 }
 
 
@@ -235,7 +234,7 @@ input::placeholder{
   font-size: 150%;
   background-color: #fcbf49;
   padding: 2%;
-  line-height: 35px;
+  line-height: 1.5em;
 }
 
 .intervjuStart{
@@ -251,19 +250,19 @@ input::placeholder{
 }
 
 .intervjuMid p{
-  width: 90%;
+  width: 80%;
   margin: auto;
   line-height: 25px;
 }
 
 .intervjuMid h3{
-  width: 90%;
+  width: 80%;
   font-weight: bolder;
   margin: auto;
 }
 
 .intervjuMid img{
-  width: 90%;
+  width: 80%;
   display: block;
   margin: auto;
 }
@@ -272,6 +271,18 @@ input::placeholder{
   background-color: #4d908e;
   padding: 1%;
   text-align: center;
+}
+
+.spotifyItem{
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.bildtext{
+  font-style: italic;
+  display: block;
+  size: 12px;
 }
 
 
@@ -289,14 +300,14 @@ input::placeholder{
     display: block;
   }
 
-  .interviewTrailer img{ 
+  .interviewTrailer img{
     height: 100px;
   }
 
   .newInterview-left{
     margin-top: 25%;
   }
-  
+
   .background h3{
     font-size: 50px;
   }
@@ -318,6 +329,5 @@ input::placeholder{
   .intervjuMid img{
   width: 100%;
 }
-  
-}
 
+}
