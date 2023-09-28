@@ -285,6 +285,24 @@ input::placeholder{
   size: 12px;
 }
 
+@media only screen and (max-width: 1200px) {
+
+  .intervjuStart{
+    display: block;
+    background-color: #fcbf49;
+  }
+
+  .intervjuStart img{
+    width: 100%;
+  }
+
+  .preText{
+    margin-left: 4%;
+    width: 90%;
+  }
+
+}
+
 
 @media only screen and (max-width: 480px) {
 
